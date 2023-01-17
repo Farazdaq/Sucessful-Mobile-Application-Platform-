@@ -1,0 +1,17 @@
+{%extends "index.html"%}
+{%block body%}
+<form action="/add_project_step2" method="POST">
+<div id="add-project-step3-main-cintent">
+    <i id="setp2-icon-goal" class="material-icons">outlined_flag</i> 
+    <i id="setp2-icon-vision"class="material-icons">description</i>
+    <a id="goal-vision-text">_______________________Relationship_________________________</a>
+    <a id="goalvisiontext2">{{ describtion }} : {{ relationship}}</a> 
+    <div> {% if  describtion =="Bad" %}
+        <a></a>
+     {% else %}
+     <button id="step2-netx-button-div1" class="btn btn-outline-success"  type="submit">Get Featuers</button>
+     {% endif %}</div>
+    <a id="step2-netx-button-div2" class="btn btn-outline-danger" id="back_button" href="{{ url_for('add_project_step1') }}">Back</a>
+</div>
+</form>
+{%endblock%}

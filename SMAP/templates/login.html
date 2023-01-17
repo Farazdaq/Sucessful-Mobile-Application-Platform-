@@ -1,0 +1,14 @@
+{%extends "index.html" %}
+{%block body%}
+<form action="/login" method="POST">
+<div id="login-content">
+    <image id="login-icon" src="{{url_for('static', filename='img/logo.png')}}"></image>
+    <div id="loing-name-text"><a >SMAP</a></div> 
+    <input id="email-text-box" class="form-control me-2" type="search" placeholder="Username/Email" aria-label="Email" name="username">
+    <input id="password-text-box" class="form-control me-2" type="search" placeholder="Password" aria-label="Password" name="password">
+    <div id="loing-forget-link"><a  href="#">Forget my Password!</a></div> 
+    <button id="login-submit" class="btn btn-outline-success" type="submit">Submit</button>
+    <div id="loing-sign-link"><a  href="#">Sign Up</a></div> 
+</div>
+</form>
+{%endblock%}

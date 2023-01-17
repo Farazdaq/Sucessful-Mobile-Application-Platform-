@@ -1,0 +1,329 @@
+#logo-icon{
+  width: 30%;
+  height: 100px;
+}
+#index-navbar {
+  z-index:2;
+  height: 14%;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;  
+  top: 0;
+  left: 0px;
+  right: 0px;
+  border: 0.5px solid;
+  border-color: #908f8f;
+  padding: 5px;
+  box-shadow: 2.5px 2.5px #cbcbcb;
+}
+#navbar-brand{
+  margin-right: 2%;
+  margin-left: 0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #b3570f;
+  font-size: 40px;
+  font-style: italic;
+}
+#loing-name-text{
+  color: #b3570f;
+  font-size: 30px;
+  font-style: italic;
+  margin-left: 75px;
+  margin-top: 0;
+}
+#word-header{
+  height: 30%;
+  background-color: #4b473c;  
+  width: 100%;
+  border-color: #908f8f;
+  padding: 8px;
+  text-align: center;
+}
+
+
+
+
+#search-text-box{
+  height: 30px;
+  width: 320px;
+  font-size: 13px;
+  margin-left: 7%;
+  margin-top: 1%;
+ 
+  
+ 
+}
+#login-button,#login-submit{
+  height: 30px;
+  font-size: 13px;
+  margin-left: 30px;
+  margin-right: 2%;
+  margin-top: 1%;
+  border-color: #b3570f;
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+}
+#login-submit:hover{background-color: #e67016}
+#login-button:hover {background-color: #e67016}
+#index-content{
+  height: 300px;
+}
+#word-text1, #word-text2{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:unset;
+
+}
+#word-text2{
+  color: #e67016;
+}
+#sider-img1,#sider-img2,#sider-img3, #div-img, #carousel-inner{
+  width: 100%;
+  height: 200px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+#logo-icon-fotor{
+  width: 15%;
+  height: 15%;
+  margin-left: 45%;
+}
+#m1,#m2,#m3,#m4,#m5{
+  margin-left: 15px;
+  font-size: 16px;
+  color: #4b473c;
+}
+#login-content{
+  width: 300px;
+  height: 400px;
+  background-color: #fdfcfc;
+  border: 0.5px solid;
+  border-color: #929292;
+  border-radius: 15px;
+  margin-left: 35%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
+ 
+ 
+}
+#email-text-box, #password-text-box{
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  
+}
+#login-icon{
+width: 80px;
+height: 80px;
+margin-left: 70px;
+margin-bottom: 0;
+}
+#login-submit{
+  margin-left: 90px;
+  margin-top: 20px;
+
+}
+#loing-sign-link{
+ margin-left: 97px;
+  margin-top: 40px;
+}
+#loing-forget-link{
+  margin-top: 15px;
+  margin-left: 55px;
+}
+
+#me-nav{
+  width: 100%;
+}
+
+#id-dropdown{
+margin-left: 45%;
+}
+
+#plus-icon{
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  margin: 1%;
+  
+}
+#plus-button{
+  width: 50px;
+  height: 50px;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 15px;
+  background-color: #b3570f;
+  border-color: #b3570f;
+  box-shadow: 1px 1px 3px 3px rgb(208, 208, 208);
+  
+}
+#cp-list{
+  width: 50%;
+  height: 400px;
+  background-color: #fdfcfc;
+  box-shadow: 0.5px 0.5px 3px 3px rgb(155, 154, 154);
+  margin-left: 25%;
+  margin-top: 0.5%;
+  overflow-y:auto;
+ 
+}
+#developer-cp{
+  height: 400px;
+}
+
+#index-fotor{
+  margin-top: 2%;
+  height: 150px;
+  background-color: #b3570f;
+  border: 0.5px solid;
+  border-color: #908f8f;
+  padding: 6px;
+  
+}
+
+#footer-brand{
+  color: #fbf8f8;
+  font-size: 45px;
+  font-style:inherit;
+  text-decoration: none;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+#list-button1{
+ margin-bottom:  2px;
+}
+
+#list-button2{
+  margin-bottom:  2px;
+ }
+
+ #list-success-text{
+  color: green;
+  margin-left: 25%;
+ }
+ #add-project-step1-main-div{
+  width: 40%;
+  height: 300px;
+  border: 0.5px solid;
+  border-color: #929292;
+  border-radius: 15px;
+  box-shadow: 0.5px 0.5px 3px 3px rgb(155, 154, 154);
+  margin-left: 30%;
+  margin-top: 0.5%; 
+ }
+ #app-goal-text{
+  width: 350px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 9%;
+  border-color:#b3570f;
+  font-size: 14px;
+ }
+ #app-vision-text{
+  width: 350px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 9%;
+  border-color:#b3570f;
+  font-size: 14px;
+ }
+#step1-drowb-list{
+  width: 350px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 9%;
+
+}
+#step1-netx-button{
+margin-top: 10px;
+width: 100px;
+height: 30px;
+font-size: 14px;
+margin-right: 5px;
+}
+#step1-netx-button-div{
+  margin-left: 40%;
+}
+#category-list{
+  font-size: 15px;
+  background-color: #b3570f;
+  width: 500px;
+  color: #fbf8f8;
+}
+
+#add-project-step3-main-cintent{
+  width: 40%;
+  height: 300px;
+  border: 0.5px solid;
+  border-color: #929292;
+  border-radius: 15px;
+  box-shadow: 0.5px 0.5px 3px 3px rgb(155, 154, 154);
+  margin-left: 30%;
+  margin-top: 0.5%; 
+}
+#setp2-icon-goal{
+  font-size: 70px;
+  color: #b3570f;
+  margin-top:10%;
+  margin-left: 10%;
+}
+#setp2-icon-vision{
+  font-size: 70px;
+  color: #b3570f;
+  margin-top: 10%;
+  margin-left: 45%;
+}
+#goal-vision-text{
+  font-size: 17px;
+}
+#goalvisiontext2{
+  margin-left: 36%;
+  font-size: 20px;
+  margin-top: 30px;
+  width: 100px;
+align-items: center;
+}
+#step2-netx-button-div1{
+  position:absolute;
+  margin-left: 28%;
+  margin-top: 5%;
+  width: 100px;
+  font-size: larger;
+}
+#step2-netx-button-div2{
+  position:absolute;
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 100px;
+  font-size: larger;
+}
+#back_button{
+  text-decoration: none;
+  color: red;
+}
+#featuers-list-div{
+  overflow-y:auto; 
+  height: 170px;
+  width: 100%;
+}
+#features-inner-list{
+  width: 95%;
+  height: 60px;
+  border: 0.5px solid;
+  border-color: #929292;
+  border-radius: 8px;
+  box-shadow: 0.4px 0.4px 2px 2px rgb(186, 185, 185);
+  overflow-y:auto;
+  text-align: center;
+}
+
+#ul-a{
+  font-size: 13px;
+  font-style: oblique;
+}

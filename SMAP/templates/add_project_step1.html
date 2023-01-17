@@ -1,0 +1,26 @@
+{%extends "index.html"%}
+{%block body%}
+<form action="/add_project_step1" method="POST">
+<div id="add-project-step1-main-div">
+    <input name="goal" id="app-goal-text" class="form-control me-2" type="search" placeholder="The Project Goal (What is your application for..?)" >
+    <textarea name="vision" id="app-vision-text" class="form-control me-2" placeholder="The Project Vision (How or What is your application..?)"></textarea>
+
+        <div id="step1-drowb-list" class="btn-group">
+          <select  name="category-list" id="category-list">
+            <option value="Select Category">Select Category"</option>
+            <option value="ART_AND_DESIGN">ART_AND_DESIGN</option>
+            <option value="mercedes">AUTO_AND_VEHICLES</option>
+            <option value="mercedes">BEAUTY</option>
+            <option value="mercedes">BOOKS_AND_REFERENCE</option>
+            <option value="mercedes">BUSINESS</option>
+            <option value="mercedes">COMICS</option>
+            <option value="mercedes">COMMUNICATION</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+      <div id="step1-netx-button-div"><button id="step1-netx-button" class="btn btn-outline-success"  type="submit">Next>>></button></div>
+      
+</div>
+
+</form>
+{%endblock%}

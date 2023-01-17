@@ -1,0 +1,40 @@
+{%extends "index.html"%}
+{%block body%}
+<form action="/add_project_step2" method="POST">
+<div id="add-project-step3-main-cintent">
+    <a id="goal-vision-text">_________________________Featuers___________________________</a> 
+    <div id="featuers-list-div">
+        <ul id="ul-list">
+             <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed0 }} {{ scoreview0 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed1 }} {{ scoreview1 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed2 }} {{ scoreview2 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed3 }} {{ scoreview3 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed4 }} {{ scoreview4 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed5 }} {{ scoreview5 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed6 }} {{ scoreview6 }} </a>
+            </li> 
+            <li id="features-inner-list">
+                <a id="ul-a"> {{ featureviwed7 }} {{ scoreview7 }} </a>
+            </li>      
+        </ul>
+    </div>
+    <div> 
+     <button id="step2-netx-button-div1" class="btn btn-outline-success"  type="submit">Predict Success</button>
+    <a id="step2-netx-button-div2" class="btn btn-outline-danger" id="back_button" href="{{ url_for('add_project_step2') }}">Back</a>
+</div>
+</div>
+</form>
+{%endblock%}
